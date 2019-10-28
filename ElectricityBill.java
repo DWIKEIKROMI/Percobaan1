@@ -46,5 +46,9 @@ public class ElectricityBill implements Payable{
         return "kWH = "+kwh+"\n" +
                 "Category = "+category+"("+getBasePrice()+" perKWh)\n";
     }
+    
+    public void info(){
+        System.out.println("Halooo");
+    }
 
 }
